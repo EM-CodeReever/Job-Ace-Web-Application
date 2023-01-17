@@ -23,7 +23,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Third and so on
 
 
-## Heading 2
+## Project Setup Instructions
+Enusre you have the prerequisite technologies needed for this project ( composer, NodeJS)
+- Clone Repositiory using git bash
+- Run npm install
+- Run composer update ( if that doesnt work for some reason try 'composer install' )
+- cd Job-Ace-Web-Application
+- Run the vite server first 'npm run dev'
+- In a separate termianl run 'php artisan serve'
+- The website will(hopefully) be live on 'localhost:8000'
+
+PS: If you notice an error in the 'app.ts' file, dont worry it's just your imagination.
+
 
 
 
